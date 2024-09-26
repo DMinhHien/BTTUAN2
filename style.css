@@ -1,0 +1,126 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	display: block;
+}
+
+.header {
+	width: 100%;
+	display: block;
+}
+
+.header .nav {
+	width: 100%;
+	display: flex;
+}
+
+.header .nav .search {
+	width: 450px;
+	height: 30px;
+	border: solid 1px #e2e0e0;
+	margin-left: 30px;
+	display: flex;
+}
+
+.header .nav input {
+	border: none;
+	width: 100%;
+	background-color: white;
+}
+
+.header .nav button {
+	border: none;
+	background-color: white;
+}
+
+.header .menu {
+	background-color: #2fa1b3;
+}
+
+.header .menu ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header .menu li {
+	color: white;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 1px solid rgba(255,255,255,.2);
+	cursor: pointer;
+}
+
+.header .menu li:hover {
+	background-color: #2b94a5;
+}
+
+.main {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.row .item {
+	width: 70%;
+	float: left;
+	padding: 5px;
+}
+.row .hot_item {
+	width: 500px;
+	height: 300px;
+	float: left;
+	padding: 5px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.column{ 
+	width: 70%;	
+	display: flex;
+	flex-direction: column;
+
+}
+.column .column_item {
+	width: 100%;
+	display: flex;
+	padding: 5px;
+}
+.footer {
+	width: 100%;
+}
+
+.container-center {
+	width: 80%;
+	margin: 0px auto;
+}
+.chinhphu_container {
+    width: 300px;      /* Chiều rộng của khung */
+    height: 300px;     /* Chiều cao của khung */
+    border-top: 5px solid red; /* Viền khung */
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+    padding: 10px;     /* Khoảng cách giữa viền và nội dung bên trong */
+    display: flex;     /* Hiển thị các div theo hàng ngang (nếu cần) */
+    flex-direction: column; /* Đổi thành hàng dọc nếu cần */
+}
+.diaphuong_container {
+    width: 300px;      /* Chiều rộng của khung */
+    height: 100%;     /* Chiều cao của khung */
+    padding: 10px;     /* Khoảng cách giữa viền và nội dung bên trong */
+    display: flex;     /* Hiển thị các div theo hàng ngang (nếu cần) */
+    flex-direction: column; /* Đổi thành hàng dọc nếu cần */
+}
